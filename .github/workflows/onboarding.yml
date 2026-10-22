@@ -1,0 +1,13 @@
+name: Onboarding walkthrough
+
+on:
+  workflow_dispatch:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greet the interns
+        run: |
+          echo "Hello, interns! This is the onboarding walkthrough workflow."
+          echo "Manual trigger works. Nothing else to do here."
